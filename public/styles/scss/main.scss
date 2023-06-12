@@ -1,0 +1,20 @@
+/*
+ For "${...}" content: Expected a string or something automatically convertible to string (number, date or boolean), or "template output" , but this has evaluated to an extended_hash (wrapper: f.t.SimpleHash):
+==> project  [in template "file:///D:/git/em-d3v.github.io/nbproject/licenseheader.txt" at line 4, column 20]
+
+----
+FTL stack trace ("~" means nesting-related):
+        - Failed at: ${project}  [in template "file:///D:/git/em-d3v.github.io/nbproject/licenseheader.txt" at line 4, column 18]
+        - Reached through: #include "${project.licensePath}"  [in template "Templates/ClientSide/style.scss" at line 24, column 1]
+----
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jun 12, 2023, 1:00:06 PM
+    Author     : eVmPr
+*/
+
+body {
+    
+}
