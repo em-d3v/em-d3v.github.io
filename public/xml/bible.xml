@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 2023 eVmPr
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <bible-verse>
+        <book ></book>
+        <chapter></chapter>
+        
+    </bible-verse>
+    <verse book="Matthew" chapter="10"></verse>
+</root>
