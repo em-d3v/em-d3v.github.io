@@ -1,2 +1,2 @@
-#   Addem-d3v.github.io
-[Website](https://github.com/em-d3v/em-d3v.github.io/public/index.html)
+#   em-d3v.github.io
+[![badge](https://custom-icon-badges.demolab.com/static/v1?label&message=em-d3v&color=114811&logo=web)](https://em-d3v.github.io/public/template.html)
