@@ -6,3 +6,4 @@
 **/.vs
 **/.npm*
 **/*.map
+**/template.html

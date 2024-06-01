@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "em-d3v",
+    "homepage": "https://em-d3v.github.io/",
     "contributors": [],
     "dependencies": {}
 }
