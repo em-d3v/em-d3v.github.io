@@ -1,4 +1,8 @@
 /node_modules
 *.css.map
 **/nbproject
-
+**/.idea
+**/.vscode
+**/.vs
+**/.npm*
+**/*.map
