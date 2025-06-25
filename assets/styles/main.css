@@ -31,7 +31,7 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #000 !important;
 }
 
 body {
@@ -75,6 +75,10 @@ main {
   height: 87.5%;
   float: right;
   background-color: #a607a6;
+}
+
+#logo {
+  float: left;
 }
 
 article {
@@ -224,6 +228,3 @@ address {
     width: 100%;
   }
 }
-
-
-/*# sourceMappingURL=main.css.map */

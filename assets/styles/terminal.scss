@@ -1,0 +1,6 @@
+@import "lib.scss";
+
+body{
+    @include default-font;
+    background-color: #000;
+}
