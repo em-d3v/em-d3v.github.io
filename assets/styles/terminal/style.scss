@@ -1,0 +1,40 @@
+@import "lib.scss";
+@import url("../reset.css");
+html {
+  font-size: 14px;
+  background-color: #000;
+}
+body {
+  @include default-font;
+  background-color: #000;
+}
+/*Containers*/
+header {
+  width: 100%;
+  max-width: 100%;
+  /*max-width: max-content;*/
+  border-bottom: cborder(1px, solid);
+  margin-bottom: 1%;
+  align-content: center;
+  text-align: center;
+  h1 {
+    width: 100%;
+  }
+}
+#nav-box{
+  
+  float: left;
+  @include border;
+ h2{
+  width: 100%;
+ }
+
+}
+.body{
+  float: right;
+  height: 100%;
+  margin-left: 10px;
+}
+footer{
+  bottom: 0;
+}

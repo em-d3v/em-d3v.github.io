@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "VT-323", "Courier New", "Courier", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=VT323&display=swap'");
+}
+@font-face {
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+}
+@font-face {
+  font-family: "Bitwise";
+  src: url("./fonts/Bitwise-m19x.ttf");
+}
+@font-face {
+  // font-family: rainbow-plus;
+  font-family: "PxPlus Rainbow100 re.80";
+  src: url("fonts/PxPlus_Rainbow100_re_80.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Px437 Rainbow100 re.80";
+  // font-family: rainbow-px;
+  src: url("fonts/Px437_Rainbow100_re_80.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Px437 Phoenix BIOS-2y";
+  // font-family: phoenix-px;
+  src: url("fonts/Px437_Phoenix_BIOS-2y.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Px437 PhoenixVGA 8x8";
+  // font-family: phoenix-vga;
+  src: url("fonts/Px437_PhoenixVGA_8x8.ttf") format("truetype");
+}
+:root {
+  --fg: #fff;
+  --bg: #000;
+  --mid: rgb(127.5, 127.5, 127.5);
+  --default-bg: #111;
+  --default-fg: #fff;
+  --green-bg: #131;
+  --green-fg: #5bf870;
+  --green: rgb(116, 206, 116);
+  --red-bg: #350302;
+  --red-fg: #c0100a;
+  --blue-bg: #4242e7;
+  --blue-fg: #a5a5ff;
+  --border: var(--fg);
+  --caret: "█";
+  --start: ">";
+  --heading-font: "Courier Prime", "Courier New", Courier, monospace;
+  --default-font: "";
+  --rainbow-plus: "Px437 Rainbow100 re.80";
+  --grid: linear-gradient(rgba(18, 16, 16, 0.03) 50%, rgba(0, 0, 0, 0.15) 50%),
+    linear-gradient(
+      90deg,
+      rgba(192, 0, 0, 0.22),
+      rgba(17, 51, 17, 0.11),
+      rgba(17, 17, 51, 0.22)
+    );
+  --crt: linear-gradient(
+    90deg,
+    rgba(50, 0, 0, 0.1) 25%,
+    rgba(0, 50, 0, 0.1) 25%,
+    rgba(0, 0, 50, 0.1) 25%,
+    transparent 25%
+  );
+  --grad: radial-gradient(ellipse, transparent, rgba(0, 0, 0, 0.5) 90%);
+}
+@mixin default-font {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--fg);
+}
+@mixin headings-font {
+  font-family: "Courier Prime";
+}
+@mixin size($value) {
+  width: $value;
+  height: $value;
+}
+@mixin color {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+@mixin color($bg: $background, $fg: $foreground) {
+  background-color: $bg !important;
+  color: $fg !important;
+}
+@mixin border {
+  border-color: $color;
+  border-style: $style;
+}
+@mixin border($color: var(--fg), $width: 1px, $style: solid, $radius: 0) {
+  border-color: $color;
+  border-style: $style;
+  border-width: $width;
+  border-radius: $radius;
+}
+.default {
+  --bg: var(--default-bg);
+  --fg: var(--default-fg);
+  --mid: rgb(154.5, 154.5, 154.5);
+}
+.green {
+  --bg: var(--green-bg);
+  --fg: var(--green-fg);
+  --mid: rgb(54, 149.5, 64.5);
+}
+.red {
+  --bg: var(--red-bg);
+  --fg: var(--red-fg);
+  --mid: rgb(122.5, 9.5, 6);
+}
+.blue {
+  --bg: var(--blue-bg);
+  --fg: var(--blue-fg);
+  --mid: rgb(115.5, 115.5, 243);
+}

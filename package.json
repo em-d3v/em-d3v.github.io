@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "em-d3v",
+    "scripts": {
+        "compile-sass":""
+    },
     "homepage": "https://em-d3v.github.io/",
     "contributors": [],
     "dependencies": {}
